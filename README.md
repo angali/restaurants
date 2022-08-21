@@ -1,10 +1,11 @@
-Find Nearby Restaurants app is SPA which that shows a list of 10 nearby restaurants and the distance in kilometers from your current location.
+Find Nearby Restaurants app is SPA that shows a list of 10 (or more) nearby restaurants and the distance in kilometers from your current location.
 
 notes: 
  - Distance (from your current location) below 1000m are in meters, distance from 1km are in kilometers.
- - This application uses HERE API, so you need to get your own API key (HERE_API_ID, HERE_API_KEY) 
-   https://developer.here.com/
- - To disply the map, you need to get your own google maps api
+ - This application uses HERE API, so you need to have your own API key (HERE_API_ID, HERE_API_KEY) 
+    https://developer.here.com/
+ - To disply the google maps, you need to get your own google maps api.
+    https://developers.google.com/maps
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
