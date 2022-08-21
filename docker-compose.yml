@@ -1,0 +1,14 @@
+version: '3'
+services:
+  findrestaurants:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      NODE_ENV: production
+      PRODUCTION: 'true' 
+      HERE_API_ID: xxxxx
+      HERE_API_KEY: xxxxxxx
+      HERE_API_DISCOVER_URL: https://discover.search.hereapi.com/v1/discover
+      HERE_API_LOOKUP_URL: https://lookup.search.hereapi.com/v1/lookup
+      GOOGLE_MAPS_API_KEY: xxxxxxxxxx

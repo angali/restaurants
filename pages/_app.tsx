@@ -1,8 +1,18 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import '../public/static/css/styles.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const App = ({ Component, pageProps }: AppProps) => {
+  const { seoPageTitle } = pageProps;
+
+  return (
+    <>
+      <Head>
+        <title>{seoPageTitle}</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
-export default MyApp
+export default App
