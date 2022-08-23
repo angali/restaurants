@@ -7,6 +7,10 @@ body{
   background-color: #ece7e4
 }
 
+.dance-font{
+  font-family: 'Dancing Script', cursive;
+}
+
 #nprogress .bar {
     height: 3px !important;
     background: red !important;

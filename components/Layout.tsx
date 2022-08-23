@@ -18,11 +18,11 @@ type IProps = {
 const Layout: React.FC<IProps> = ({ children }) => {
 
     const nav = () => (
-        <ul className="nav nav-tabs bg-success">
+        <ul className="nav nav-tabs bg-success shadow sticky-top">
             <li className="nav-item">
                 <Link href="/">
                     <a className="nav-link text-white" >
-                        Home
+                        <h2 className="dance-font">Nearby Restaurants</h2>
                     </a>
                 </Link>
             </li>
